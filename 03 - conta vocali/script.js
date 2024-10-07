@@ -2,8 +2,15 @@
 
 const word = 'javascript';
 
+const vocals = ['a', 'e', 'i', 'o' , 'u']
+
+let word_vocals =[]
+
 
 // Dichiara la funzione qui.
+
+function find_vocals (word){}
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
