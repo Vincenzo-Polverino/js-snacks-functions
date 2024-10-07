@@ -2,20 +2,21 @@
 
 const word = 'javascript';
 
-const vocals = ['a', 'e', 'i', 'o' , 'u']
+const vocals = ['a', 'e', 'i', 'o', 'u']
 
-let word_vocals =[]
+let word_vocals = []
 
 
 // Dichiara la funzione qui.
 
-function find_vocals (word){
-    for(let i = 0; i<word.length; i++){
-        
+function find_vocals(word) {
+    for (let i = 0; i < word.length; i++) {
+        if (vocals.includes(word[i]))
+            word_vocals.push(word[i]);
+
     }
-
+    return word_vocals
 }
-
 
 
 // Invoca la funzione qui e stampa il risultato in console
