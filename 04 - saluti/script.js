@@ -11,6 +11,7 @@ function add_greetings(greeting, name) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(add_greetings(greeting,name));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
