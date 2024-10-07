@@ -9,7 +9,12 @@ let word_vocals =[]
 
 // Dichiara la funzione qui.
 
-function find_vocals (word){}
+function find_vocals (word){
+    for(let i = 0; i<word.length; i++){
+        
+    }
+
+}
 
 
 
