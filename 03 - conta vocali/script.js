@@ -20,6 +20,7 @@ function find_vocals(word) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(find_vocals(word));
 
 
 
