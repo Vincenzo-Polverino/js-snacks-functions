@@ -4,7 +4,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function find_initial_a_names(names) {}
+function find_initial_a_names(names) {
+
+    for(let i = 0; i< names.length; i++){}
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
