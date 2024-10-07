@@ -15,6 +15,7 @@ function find_initials(names){
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(find_initials(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

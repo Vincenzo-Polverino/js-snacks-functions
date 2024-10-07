@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function find_initial_a_names(names) {}
 
 // Invoca la funzione qui e stampa il risultato in console
 
