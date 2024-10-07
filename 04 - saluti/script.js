@@ -5,7 +5,9 @@ const name = 'Mario';
 let greeting= 'Ciao';
 
 // Dichiara la funzione qui.
-function add_greetings(greeting, name) {}
+function add_greetings(greeting, name) {
+    return `${greeting} ${name}`
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 

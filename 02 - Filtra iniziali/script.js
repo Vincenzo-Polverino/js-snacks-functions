@@ -2,10 +2,10 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-let chara = 'A'
 
 let a_names = [];
 // Dichiara la funzione qui.
+let chara = 'A'
 function find_initial_a_names(names) {
 
     for(let i = 0; i< names.length; i++){
