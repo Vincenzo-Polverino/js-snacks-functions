@@ -2,7 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-let chara = 'a'
+let chara = 'A'
 
 let a_names = [];
 // Dichiara la funzione qui.
@@ -10,7 +10,7 @@ function find_initial_a_names(names) {
 
     for(let i = 0; i< names.length; i++){
 
-        if(names[i].charAT(0) === chara){
+        if(names[i].charAt(0) === chara){
             a_names.push(names[i]);
         }
     } return a_names
@@ -18,6 +18,7 @@ function find_initial_a_names(names) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(find_initial_a_names(names));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
